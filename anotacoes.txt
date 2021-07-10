@@ -1,7 +1,6 @@
 Módulo 1
 
 01 - criando estrutura do projeto
-
 - criar pasta para o projeto (mkdir 01-github-explorer)
 - yarn init -y (cria arquivo package.json automático)
 - yarn add react (instala dependência do react)
@@ -12,7 +11,6 @@ Módulo 1
     - criar arquivo index.html com estrutura básica (!)
 
 02 - configurando babel
-
 - yarn add @babel/core @babel/cli @babel/preset-env -D
 - criar arquivo babel.config.js (exportar configurações module.exports)
 - criar arquivo index.jsx na pasta src
@@ -21,7 +19,6 @@ Módulo 1
         (o bundle vai conter o código convertido)
 
 03 - configurando Webpack
-
 - yarn add webpack webpack-cli -D
 - criar arquivo de configuração webpack.config.js
 - yarn add babel-loader -D (integração entre babel e webpack)
@@ -30,7 +27,6 @@ Módulo 1
 - yarn webpack para testar
 
 04 - estrutura do ReactJs
-
 - no index.html:
     - cria a div com id root
     - chama script do arquivo bundle.js
@@ -40,13 +36,11 @@ Módulo 1
     - adicionar mode: 'development' no arquivo de configuração do weppack
 
 05 - servindo html estático
-
     - pluggin para não precisar criar manualmente a tag script dentro do index.html
         yarn add html-webpack-plugin -D
     - adiciona as configurações do plugin no arquivo webpack.config.js
 
 06 - webpack dev server
-
     - yarn add webpack-dev-server -D
     - adiciona no arquivo webpack.config.js as configurações em devServer
     - automatiza a função de yarn webpack - o webpack ficará observando as mudanças e atualizará o bundle.js automaticamente
@@ -62,3 +56,8 @@ Módulo 1
 09 - importando arquivos css 
     - yarn add style-loader css-loader -D
     - adiciona a configuração no webpack.config.js
+
+10 - utilizando sass
+    - yarn add sass-loader -D
+    - altera configurações no webpack.config.js
+    - yarn add node-sass -D
