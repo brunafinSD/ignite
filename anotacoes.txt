@@ -58,3 +58,7 @@ Módulo 1
 08 - ambiente dev e produção
     - cria variavél isDevelopment no arquivo erbpack.config.js
     - yarn add cross-env -D (criar variavel ambiente independente do sistema operacional)
+
+09 - importando arquivos css 
+    - yarn add style-loader css-loader -D
+    - adiciona a configuração no webpack.config.js
