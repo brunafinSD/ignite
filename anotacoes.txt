@@ -51,3 +51,6 @@ Módulo 1
     - adiciona no arquivo webpack.config.js as configurações em devServer
     - automatiza a função de yarn webpack - o webpack ficará observando as mudanças e atualizará o bundle.js automaticamente
     - yarn webpack server
+
+07 - facilita a visualização de erros no browser, fornece acesso ao código original da aplicação no browser
+    - no arquivo webpack.config.js adicionar as configurações de devtool
