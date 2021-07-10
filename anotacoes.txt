@@ -77,3 +77,10 @@ Módulo 2
 
 03 - estado
     - exemplo com counter
+
+04 - imutabilidade
+    - NÃO USAR PUSH para colocar um novo elemento em um array e sim o spread operator passando tudo para um novo array + o novo elemento
+
+05 - Fast Refresh
+    - yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh
+    - configurações no webpack.config.js
