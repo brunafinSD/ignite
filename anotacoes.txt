@@ -28,3 +28,13 @@ Módulo 1
 - criar arquivo App.jsx exportar h1
 - importar arquivo App
 - yarn webpack para testar
+
+04 - estrutura do ReactJs
+
+- no index.html:
+    - cria a div com id root
+    - chama script do arquivo bundle.js
+- no index.jsx:
+    - importa a função render do react-dom
+    - chama o render passando nos parâmetros, no primeiro parâmetro vai o que será renderizado, e no segundo dentro de qual elemento
+    - adicionar mode: 'development' no arquivo de configuração do weppack

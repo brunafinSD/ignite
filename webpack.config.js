@@ -2,6 +2,7 @@
 const path = require ('path');
 
 module.exports = {
+    mode: 'development',
     // aqui o arquivo principal da aplicação
     entry: path.resolve(__dirname, 'src', 'index.jsx'),
     // qual arquivo será gerado
