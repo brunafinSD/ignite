@@ -54,3 +54,7 @@ Módulo 1
 
 07 - facilita a visualização de erros no browser, fornece acesso ao código original da aplicação no browser
     - no arquivo webpack.config.js adicionar as configurações de devtool
+
+08 - ambiente dev e produção
+    - cria variavél isDevelopment no arquivo erbpack.config.js
+    - yarn add cross-env -D (criar variavel ambiente independente do sistema operacional)
