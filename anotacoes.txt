@@ -1,0 +1,22 @@
+Módulo 1
+
+01 - criando estrutura do projeto
+
+- criar pasta para o projeto (mkdir 01-github-explorer)
+- yarn init -y (cria arquivo package.json automático)
+- yarn add react (instala dependência do react)
+- yarn add react-dom (instala dependência do react para trabalhar na web)
+- criar pasta src
+    - index.jsx
+- criar pasta public
+    - criar arquivo index.html com estrutura básica (!)
+
+02 - configurando babel
+
+- yarn add @babel/core @babel/cli @babel/preset-env -D
+- criar arquivo babel.config.js (exportar configurações module.exports)
+- criar arquivo index.jsx na pasta src
+- converter código com o babel
+    - yarn babel src/index.jsx --out-file dist/bundle.js
+        (o bundle vai conter o código convertido)
+
