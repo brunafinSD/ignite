@@ -38,3 +38,9 @@ Módulo 1
     - importa a função render do react-dom
     - chama o render passando nos parâmetros, no primeiro parâmetro vai o que será renderizado, e no segundo dentro de qual elemento
     - adicionar mode: 'development' no arquivo de configuração do weppack
+
+05 - servindo html estático
+
+    - pluggin para não precisar criar manualmente a tag script dentro do index.html
+        yarn add html-webpack-plugin -D
+    - adiciona as configurações do plugin no arquivo webpack.config.js

@@ -1,5 +1,6 @@
 // cada sistema operacional usa a barra de uma forma e o path vai fazer esse papel de saber qual barra usar no caminhos
 const path = require ('path');
+const HtmlWebpackPlugin = require ('html-webpack-plugin');
 
 module.exports = {
     mode: 'development',
@@ -14,6 +15,11 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.jsx'],
     },
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: path.resolve(__dirname, 'public', 'index.html')
+        })
+    ],
     // como a  aplicação vai ser comportar com esses arquivos
     module: {
         rules: [
