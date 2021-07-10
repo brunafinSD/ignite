@@ -44,3 +44,10 @@ Módulo 1
     - pluggin para não precisar criar manualmente a tag script dentro do index.html
         yarn add html-webpack-plugin -D
     - adiciona as configurações do plugin no arquivo webpack.config.js
+
+06 - webpack dev server
+
+    - yarn add webpack-dev-server -D
+    - adiciona no arquivo webpack.config.js as configurações em devServer
+    - automatiza a função de yarn webpack - o webpack ficará observando as mudanças e atualizará o bundle.js automaticamente
+    - yarn webpack server
