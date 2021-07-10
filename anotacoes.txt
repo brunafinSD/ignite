@@ -67,3 +67,10 @@ Módulo 2
 01 - primeiro component
     - criar arquivo RepositoryList.jsx exportando uma ul
     - no App.jsx chamar o RepositoryList.jsx no lugar do h1
+
+02 - propriedades
+    - criar arquivo RepositotyItem.jsx com as informações do li
+    - no RepositoryList não terá mais o código do li e sim a chamada do componente RepositotyItem
+    - são passadas as propriedades no arquivo RepositotyList na tag RepositotyItem
+    - RepositotyItem recebe as propriedades através dos argumentos da função "props"
+    - acessa a propriedade através de "props.nomedapropriedade"
