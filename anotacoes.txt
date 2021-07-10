@@ -74,3 +74,6 @@ Módulo 2
     - são passadas as propriedades no arquivo RepositotyList na tag RepositotyItem
     - RepositotyItem recebe as propriedades através dos argumentos da função "props"
     - acessa a propriedade através de "props.nomedapropriedade"
+
+03 - estado
+    - exemplo com counter
