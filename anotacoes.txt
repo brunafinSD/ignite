@@ -20,3 +20,11 @@ Módulo 1
     - yarn babel src/index.jsx --out-file dist/bundle.js
         (o bundle vai conter o código convertido)
 
+03 - configurando Webpack
+
+- yarn add webpack webpack-cli -D
+- criar arquivo de configuração webpack.config.js
+- yarn add babel-loader -D (integração entre babel e webpack)
+- criar arquivo App.jsx exportar h1
+- importar arquivo App
+- yarn webpack para testar
