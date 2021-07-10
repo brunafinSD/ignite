@@ -61,3 +61,9 @@ Módulo 1
     - yarn add sass-loader -D
     - altera configurações no webpack.config.js
     - yarn add node-sass -D
+
+Módulo 2
+
+01 - primeiro component
+    - criar arquivo RepositoryList.jsx exportando uma ul
+    - no App.jsx chamar o RepositoryList.jsx no lugar do h1
