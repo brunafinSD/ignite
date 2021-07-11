@@ -86,3 +86,11 @@ Módulo 2
     - configurações no webpack.config.js
 
 Módulo 3
+
+01 - scss - & serve para referenciar o próprio elemento
+
+02 - useEffect CUIDADOS:
+    - Não esquecer de colocar o segundo parâmetro (array de dependências).
+    - Não observar (colocar no array de dependências) a mesma variável que troca de estado dentro do useEffect
+
+03
