@@ -84,3 +84,5 @@ Módulo 2
 05 - Fast Refresh
     - yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh
     - configurações no webpack.config.js
+
+Módulo 3

@@ -5,7 +5,7 @@ export function App() {
     // throw new Error ('Eita Giovana o forninho caiu');
     return (
         <>
-            <Counter />
+            {/* <Counter /> */}
             <RepositoryList>Hello React</RepositoryList>
         </>
     )
