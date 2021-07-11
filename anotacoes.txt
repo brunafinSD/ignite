@@ -93,4 +93,6 @@ Módulo 3
     - Não esquecer de colocar o segundo parâmetro (array de dependências).
     - Não observar (colocar no array de dependências) a mesma variável que troca de estado dentro do useEffect
 
-03
+03 - listando repositórios
+    - para percorrer um array usamos o map, quando o map é usado é preciso passar a propriedade key no primeiro elemento.
+    - key precisa ser uma propriedade única
