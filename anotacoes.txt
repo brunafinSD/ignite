@@ -96,3 +96,14 @@ Módulo 3
 03 - listando repositórios
     - para percorrer um array usamos o map, quando o map é usado é preciso passar a propriedade key no primeiro elemento.
     - key precisa ser uma propriedade única
+
+
+Módulo 4
+
+01 - fundamentos typescript
+    - conjunto de funcionalidades que colocamos em cima de uma linguagem
+    - torna o código mais intuitivo e inteligente
+    
+02 - typescript no react
+
+03 - componente com typescript
