@@ -6,7 +6,7 @@ export function App() {
     return (
         <>
             {/* <Counter /> */}
-            <RepositoryList>Hello React</RepositoryList>
+            <RepositoryList />
         </>
     )
 }

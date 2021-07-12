@@ -114,3 +114,6 @@ Módulo 4
     - yarn add @types/react -D *caso esteja dando erro
 
 03 - componente com typescript
+    - quando temos uma propriedade do tipo "any" temos que observar para definir um tipo
+    - interface e type no typescript tem funcionalidades bem semelhantes
+    - para denifir uma tipagem para um componente, por convensão é definito o nome do componente + Props
