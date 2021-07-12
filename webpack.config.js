@@ -9,7 +9,7 @@ module.exports = {
     mode: isDevelopment ? 'development' : 'production',
     devtool: isDevelopment ? 'eval-source-map' : 'source-map',
     // aqui o arquivo principal da aplicação
-    entry: path.resolve(__dirname, 'src', 'index.jsx'),
+    entry: path.resolve(__dirname, 'src', 'index.tsx'),
     // qual arquivo será gerado
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -17,7 +17,7 @@ module.exports = {
     },
     // por padrão ele lê arquivos js, adicionamos jsx também
     resolve: {
-        extensions: ['.js', '.jsx'],
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
     },
     devServer: {
         contentBase: path.resolve(__dirname, 'public'),
@@ -33,7 +33,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.jsx$/,
+                test: /\.(j|t)sx$/,
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader',

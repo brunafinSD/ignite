@@ -103,7 +103,14 @@ Módulo 4
 01 - fundamentos typescript
     - conjunto de funcionalidades que colocamos em cima de uma linguagem
     - torna o código mais intuitivo e inteligente
-    
+
 02 - typescript no react
+    - tipar as propriedades que o componente pode receber
+    - yarn add typescript -D
+    - yarn tsc --init (vai criar tsconfig.json)
+    - yarn add @babel/preset-typescript -D
+    - ajusta configurações no webpack
+    - yarn add @types/react-dom -D
+    - yarn add @types/react -D *caso esteja dando erro
 
 03 - componente com typescript
