@@ -117,3 +117,5 @@ Módulo 4
     - quando temos uma propriedade do tipo "any" temos que observar para definir um tipo
     - interface e type no typescript tem funcionalidades bem semelhantes
     - para denifir uma tipagem para um componente, por convensão é definito o nome do componente + Props
+    
+13/07 - renomeando nome do repositório
