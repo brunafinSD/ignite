@@ -17,3 +17,5 @@ $ yarn
 ## Iniciar o projeto
 - $ yarn dev
 - A aplicação estará disponível no seu browser pelo endereço http://localhost:8080
+
+## Para ver a imagem da aplicação abra o arquivo githubExplorer.png encontrado na raíz
